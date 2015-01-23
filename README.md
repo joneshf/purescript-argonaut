@@ -32,6 +32,8 @@ module Foo where
   import Control.Identity
   import Data.Argonaut
   import Data.Either
+  import Data.Maybe
+  import qualified Data.Map as M
 
   data Foo = Foo
     { foo :: String
